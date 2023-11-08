@@ -19,8 +19,8 @@ public class Main {
     Human person2 = new Human("Вадим", 19);
     Human person3 = new Human("Мария", 28);
 
-    person1.introduce();
-    person2.introduce();
-    person3.introduce();
+    person1.clone();
+    person2.clone();
+    person3.clone();
   }
 }
