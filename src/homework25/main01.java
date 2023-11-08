@@ -3,7 +3,7 @@ package homework25;
 public class main01 {
   private String name;
   private int age;
-  public Human(String name, int age) {
+  public void Human(String name, int age) {
     this.name = name;
     this.age = age;
   }
@@ -23,5 +23,4 @@ public class Main {
     person2.introduce();
     person3.introduce();
   }
-}
 }
