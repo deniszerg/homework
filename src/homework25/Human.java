@@ -1,7 +1,8 @@
 package homework25;
 
 public class Human {
-  public String age;
+  public int age;
   public String name;
+  public String Human;
 }
 
