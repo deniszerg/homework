@@ -14,7 +14,7 @@ public class main01 {
 }
 
 public class Main {
-  public static void main(String[] args) {
+  public static <Human> void main(String[] args) {
     Human person1 = new Human("Настя", 36);
     Human person2 = new Human("Вадим", 19);
     Human person3 = new Human("Мария", 28);
